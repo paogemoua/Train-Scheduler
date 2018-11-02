@@ -11,9 +11,9 @@ This is a train scheduler application that incorporates Firebase to hose arrival
 1. Enjoy!
 
 ## Technologies Used
-*HTML5
-*CSS3
-*JavaScript
-*jQuery
-*Firebase
-*Moment.js
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* Firebase
+* Moment.js
