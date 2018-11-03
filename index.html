@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Moua Express Transits and Transportations</title>
+    <title>Moua International Express Transits and Transportations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--#1 reset.css-->
@@ -36,9 +36,11 @@
 
 </head>
 <body>
+    <div class="bg"></div>
+
     <div class="container" id="head-container">
         <div class="jumbotron" id="head">
-            <h1>Moua Express Transits</h1>
+            <h1>ME International Express Rail Transits</h1>
             <h3>Always On Time So You Can Be On Time</h3>
         </div>
     </div>
@@ -46,17 +48,18 @@
     <!-- Main Body Container -->
     <div class="container">
         <!-- Train Schedule Panel -->
+        <div class="row"> &nbsp; </div>
         <div class="panel panel-default">
-            <div class="panel-heading panel-custom">
-                Current Train Schedule
+            <div class="panel-heading panel-custom text-uppercase font-weight-bold">
+                &nbsp; Current Train Schedule &nbsp;
             </div>
             <table class="table table-hover">
                 <tr>
-                    <th scope="col">Train Name</th>
-                    <th scope="col">Destination</th>
-                    <th scope="col">Frequency (min)</th>
-                    <th scrope="col">Minutes Away</th>
-                    <th scope="col">Next Arrival</th>
+                    <th scope="col" class="font-weight-bold">Train Name</th>
+                    <th scope="col" class="font-weight-bold">Destination</th>
+                    <th scope="col" class="font-weight-bold">Frequency (min)</th>
+                    <th scrope="col" class="font-weight-bold">Minutes Away</th>
+                    <th scope="col" class="font-weight-bold">Next Arrival</th>
                 </tr>
                 <tbody id="table-data"></tbody>
             </table>
@@ -65,9 +68,10 @@
 
         <!-- Add Train Panel -->
         <div class="panel panel-default">
-            <div class="panel-heading panel-custom">
-                Add Train
+            <div class="panel-heading panel-custom text-uppercase font-weight-bold">
+                &nbsp; Add Train &nbsp; 
             </div>
+            <br>
             <div class="panel-body">
                 <form>
                     <div class="form-group">
@@ -87,16 +91,22 @@
                         <input type="text" class="form-control" id="time-freq">
                     </div>
                     <div class="btn-group" role="group">
-                        <button type="button" id="btn-add" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Submit</button>
+                        <button type="button" id="btn-add" class="btn btn-danger"><span class="glyphicon glyphicon-search"></span> Submit</button>
                     </div>
+                    <div class="row"> &nbsp; </div>
                 </form>
             </div>
         </div>
 
     </div>
 
-
     <!-- Scripts -->
     <script src="assets/javascript/app.js"></script>
 </body>
+<br>
+<footer>
+    <div class="text-center">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div class="text-center">Copyright &copy; 2018 Paoge Moua</div>
+</footer>
+<br>
 </html>
