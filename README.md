@@ -13,6 +13,7 @@ This is a train scheduler application that incorporates Firebase to hose arrival
 ## Technologies Used
 * HTML5
 * CSS3
+* Bootstrap
 * JavaScript
 * jQuery
 * Firebase
